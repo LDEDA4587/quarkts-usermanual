@@ -21,7 +21,7 @@ jobs:
           path: main.pdf
       - name: Commiting UserManual changes
         run: |
-          mv main.pdf QuarkTS_UserManual.pdf
+          mv main.pdf QuarkTS_UserManual_CN.pdf
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"      
           git checkout --orphan manual
